@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 // import Zoom from 'next-image-zoom';
+
 import back from '../../public/icons/btnback.svg';
 import arrow from '../../public/icons/arrow.svg';
 import go from '../../public/icons/white-arrow.svg';
