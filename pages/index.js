@@ -11,16 +11,17 @@ import TopTenDestinations from "../components/organisms/topTenDestinations";
 const Explore = () => {
   return (
     <>
-      <div className={`row pt-4 justify-content-center ${style.bodyWrapper}`}>
+      <div className={`row justify-content-center ${style.bodyWrapper}`}>
         <div className={`col-md-4 p-0 ${style.exploreWrapper}`}>
-          <div className={`container ${style.fixHeight}`}>
+          <div className="container">
             <Header title={"Explore"} />
-            <div className="container py-4">
-              <div id="inputSearchHome" className="row mt-4">
+            <div className="container">
+              <div id="inputSearchHome" className="row mt-3">
                 <div className="input-group input-group-lg">
                   <span className="input-group-text" id="inputGroup-sizing-lg">
                     <FiSearch size={30} color="#A3A3A3" />
                   </span>
+
                   <input
                     type="text"
                     className="form-control"
@@ -30,9 +31,7 @@ const Explore = () => {
                   />
                 </div>
               </div>
-              <div className="py-4">
-                <TrendingDestinations />
-              </div>
+              <TrendingDestinations />
               <TopTenDestinations />
             </div>
           </div>

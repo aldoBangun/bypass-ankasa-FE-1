@@ -4,8 +4,8 @@ import React from "react";
 import Image from "next/image";
 import moment from "moment";
 
-import airAsia from "../../public/img/airAsia.svg";
-import Default from "../../public/img/garuda.svg";
+import airAsia from "../../public/images/airAsia.svg";
+import Default from "../../public/images/garuda.svg";
 import flight from "../../public/icons/flight.svg";
 import arrow from "../../public/icons/arrow2.png";
 import filter from "../../public/icons/filter.svg";
